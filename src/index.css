@@ -198,4 +198,52 @@ body{
     border-radius: 20px;
     background-color: rgb(226, 228, 255) !important;
 }
+.attachment-box {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.attachment-item {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attachment-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.attachment-item a:hover {
+    text-decoration: underline;
+}
+
+.due-date {
+    margin-top: 10px;
+}
+
+.due-date p {
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icons i {
+    font-size: 1.2rem;
+}
+
+
+
+
+
 }
